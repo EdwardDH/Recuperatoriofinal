@@ -4,19 +4,19 @@ const app = express();
 app.use(express.static("public"));
 
 app.get('/admin/turnos', (req, res) => {
-    return res.sendFile(path.join(__dirname,'/views/home.html'));
+    return res.sendFile(path.join(__dirname,'/views/admin/turnos.html'));
 })
 
-app.get('/Listado de turnos', (req, res) => {
-    return res.sendFile(path.join(__dirname,'/views/Listado de turnos.html'));
+app.get('/listado_turnos', (req, res) => {
+    return res.sendFile(path.join(__dirname,'/views/listado_turnos.html'));
 })
 
-app.get('/Login', (req, res) => {
-    return res.sendFile(path.join(__dirname,'/views/Login.html'));
+app.get('/login', (req, res) => {
+    return res.sendFile(path.join(__dirname,'/views/login.html'));
 })
 
-app.get('/Vista de turnos', (req, res) => {
-    return res.sendFile(path.join(__dirname,'/views/Vista de turnos.html'));
+app.get('/vista_turnos', (req, res) => {
+    return res.sendFile(path.join(__dirname,'/views/vista_turnos.html'));
 })
 
 app.listen(3000, () => console.log('corriendo'));
