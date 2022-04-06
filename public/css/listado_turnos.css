@@ -42,16 +42,16 @@ body{
 }
 
 .footer{
-    font-size: 14px;
-    line-height: 55px;
+    font-size: 15px;
+    line-height: 23px;
     position: absolute;
     bottom: 0;
     width: 80%;
 }
 
 .footeright{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 23px;
     position: absolute;
     bottom: 0;
     width: 95%;
