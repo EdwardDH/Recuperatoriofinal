@@ -1,0 +1,81 @@
+body{
+
+    font-family: sans-serif;
+    background-image: url(../img/vara-esculapio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 90%;
+    
+    
+    
+
+}
+.container{
+    background-color: #75c8ff93 ;
+    width: 75%;
+    box-sizing: border-box;
+    margin:auto;
+    margin-top: 25%;
+    border-radius: 3px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10%;
+}
+
+.maintitle{
+    color:#00ACB1;
+     
+}
+
+.bottom{
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1px 20px;
+    box-shadow: 0 1px 1px rg;
+    text-shadow: 0 1px 0;
+
+}
+
+.footer{
+    font-size: 15px;
+    line-height: 23px;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+}
+
+.footeright{
+    font-size: 15px;
+    line-height: 23px;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    text-align: right;
+}
+
+p{
+    font-weight: 25px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.feedback{
+    color: red;
+}
+
+span{
+    display: block;
+}
+
+.boton{
+    text-align: center;
+}
+
+.select{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
