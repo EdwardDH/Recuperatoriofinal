@@ -1,4 +1,5 @@
-const turnoControllers = {
+const path = require('path')
+const turnoController = {
     listado_turnos: (req, res) => {
         return res.sendFile(path.join(__dirname,'/views/listado_turnos.html'));
     },
@@ -11,5 +12,5 @@ const turnoControllers = {
 
 };
 
-module.exports = turnosControllers;
+module.exports = turnoController;
 
